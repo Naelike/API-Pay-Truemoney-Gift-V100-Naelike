@@ -14,20 +14,20 @@ var phone = getParameter('phone');
 var paygift = getParameter('paygift');
 var getPhone = phone;
 var gtePaygift = paygift;
-var urlGet = 'paytruemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
+var urlGet = '../pay-truemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
 ```
 PHP : GET Service URL.
 ```
 $get_phone = $_GET['phone'];
 $gte_paygift = $_GET['paygift'];
-$url_get = 'paytruemoney/gift' . '?phone=' . $get_phone . '&paygift=' . $gte_paygift
+$url_get = '../pay-truemoney/gift' . '?phone=' . $get_phone . '&paygift=' . $gte_paygift
 ```
 
 # PHP GET Service Example 
 ```
 $get_phone = $_GET['phone'];
 $gte_paygift = $_GET['paygift'];
-$url_get = 'paytruemoney/gift' . '?phone=' . $get_phone . '&paygift=' . $gte_paygift
+$url_get = '../pay-truemoney/gift' . '?phone=' . $get_phone . '&paygift=' . $gte_paygift
 ```
 ```
 $api_get_json = file_get_contents($url_get);
@@ -53,7 +53,7 @@ var phone = getParameter('phone');
 var paygift = getParameter('paygift');
 var getPhone = phone;
 var gtePaygift = paygift;
-var urlGet = 'paytruemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
+var urlGet = '../pay-truemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
 ```
 ```
 axios({
@@ -85,7 +85,7 @@ var phone = getParameter('phone');
 var paygift = getParameter('paygift');
 var getPhone = phone;
 var gtePaygift = paygift;
-var urlGet = 'paytruemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
+var urlGet = '../pay-truemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
 ```
 ```
 $.ajax({url: urlGet, success: function(result){
@@ -110,7 +110,7 @@ var phone = getParameter('phone');
 var paygift = getParameter('paygift');
 var getPhone = phone;
 var gtePaygift = paygift;
-var urlGet = 'paytruemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
+var urlGet = '../pay-truemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
 ```
 ```
 $.get(urlGet, function(data, status){
@@ -132,7 +132,7 @@ var phone = getParameter('phone');
 var paygift = getParameter('paygift');
 var getPhone = phone;
 var gtePaygift = paygift;
-var urlGet = 'paytruemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
+var urlGet = '../pay-truemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
 ```
 ```
 var xmlHttp = new XMLHttpRequest();
