@@ -149,7 +149,7 @@ xmlHttp.onreadystatechange = function() {
 
 # Developer : NaeLike เนไลก์
 
-<img class="rounded" src="https://scontent.fbkk12-3.fna.fbcdn.net/v/t1.6435-9/93648333_2588074381407604_1819990862671642624_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=174925&_nc_eui2=AeGvj3gumsyFQcl_39H8pkjjbBdlahhHOn1sF2VqGEc6fYLe7hnYUzwg9OPQDcxWJ3z0vVRlB0B_wVEX802AGAG4&_nc_ohc=SRG6pWJpWfUAX_kDBPe&tn=R6D5PJFBEcu5wgN6&_nc_ht=scontent.fbkk12-3.fna&oh=8748b4bbb487aa8fe58ba820af103300&oe=60F783E6" width="120" alt="NaeLike"> 
+<img class="rounded" src="http://img.in.th/images/c938fdabdf2a1d4b2deda8ffea4fa189.jpg" width="120" alt="NaeLike"> 
 
 > Naelike เนไลก์
 
