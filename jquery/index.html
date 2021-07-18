@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>API Pay Truemoney Gift V100 Naelike  | JQuery</title>
+  </head>
+  <body>
+    <h1>API Pay Truemoney Gift V100 Naelike </h1>
+    <br>
+    <h4>JQuery</h4>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+      function getParameter(name, url = window.location.href) {
+        name = name.replace(/[\[\]]/g, '\\$&');
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+      }
+      var phone = getParameter('phone');
+      var paygift = getParameter('paygift');
+      var getPhone = phone;
+      var gtePaygift = paygift;
+      var urlGet = '../pay-truemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift;
+      $.get(urlGet, function(data, status){
+        console.log(data);
+      });
+    </script>
+  </body>
+</html>
