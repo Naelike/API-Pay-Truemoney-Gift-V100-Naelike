@@ -1,7 +1,18 @@
 # API-Pay-Truemoney-Gift-V100-Naelike
 
 <img class="rounded" src="http://img.in.th/images/92f4aac2d777868b2a45c3454e48530b.png" width="220" alt="NaeLike"> 
+
 > Truemoney Gift
+
+@truemoney :+1: Web :  <https://www.truemoney.com/sendgift/> ..! :shipit:
+
+
+# API GET URL
+
+Service Line Notify Messages:
+> ../pay-truemoney/gift[phone=paygift=]
+- phone : เบรอ์ที่รับ อั๋งเปา
+- paygift : ลิ้งอั๋งเปา
 
 .JS : GET Service URL.
 ```
