@@ -10,24 +10,24 @@ function getParameter(name, url = window.location.href) {
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
-var token = getParameter('token');
-var message = getParameter('message');
-var getToken = token;
-var gteMessage = message;
-var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
+var phone = getParameter('phone');
+var paygift = getParameter('paygift');
+var getPhone = phone;
+var gtePaygift = paygift;
+var urlGet = 'paytruemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
 ```
 PHP : GET Service URL.
 ```
-$get_token = $_GET['token'];
-$gte_message = $_GET['message'];
-$url_get = '../line-notify/messages' . '?token=' . $get_token . '&message=' . $gte_message
+$get_phone = $_GET['phone'];
+$gte_paygift = $_GET['paygift'];
+$url_get = 'paytruemoney/gift' . '?phone=' . $get_phone . '&paygift=' . $gte_paygift
 ```
 
 # PHP GET Service Example 
 ```
-$get_token = $_GET['token'];
-$gte_message = $_GET['message'];
-$url_get = '../line-notify/messages' . '?token=' . $get_token . '&message=' . $gte_message
+$get_phone = $_GET['phone'];
+$gte_paygift = $_GET['paygift'];
+$url_get = 'paytruemoney/gift' . '?phone=' . $get_phone . '&paygift=' . $gte_paygift
 ```
 ```
 $api_get_json = file_get_contents($url_get);
@@ -49,11 +49,11 @@ function getParameter(name, url = window.location.href) {
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
-var token = getParameter('token');
-var message = getParameter('message');
-var getToken = token;
-var gteMessage = message;
-var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
+var phone = getParameter('phone');
+var paygift = getParameter('paygift');
+var getPhone = phone;
+var gtePaygift = paygift;
+var urlGet = 'paytruemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
 ```
 ```
 axios({
@@ -81,11 +81,11 @@ function getParameter(name, url = window.location.href) {
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
-var token = getParameter('token');
-var message = getParameter('message');
-var getToken = token;
-var gteMessage = message;
-var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
+var phone = getParameter('phone');
+var paygift = getParameter('paygift');
+var getPhone = phone;
+var gtePaygift = paygift;
+var urlGet = 'paytruemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
 ```
 ```
 $.ajax({url: urlGet, success: function(result){
@@ -106,11 +106,11 @@ function getParameter(name, url = window.location.href) {
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
-var token = getParameter('token');
-var message = getParameter('message');
-var getToken = token;
-var gteMessage = message;
-var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
+var phone = getParameter('phone');
+var paygift = getParameter('paygift');
+var getPhone = phone;
+var gtePaygift = paygift;
+var urlGet = 'paytruemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
 ```
 ```
 $.get(urlGet, function(data, status){
@@ -128,11 +128,11 @@ function getParameter(name, url = window.location.href) {
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
-var token = getParameter('token');
-var message = getParameter('message');
-var getToken = token;
-var gteMessage = message;
-var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
+var phone = getParameter('phone');
+var paygift = getParameter('paygift');
+var getPhone = phone;
+var gtePaygift = paygift;
+var urlGet = 'paytruemoney/gift' + '?phone=' + getPhone + '&paygift=' + gtePaygift
 ```
 ```
 var xmlHttp = new XMLHttpRequest();
