@@ -6,6 +6,16 @@
 
 @truemoney :+1: Web :  <https://www.truemoney.com/sendgift/> ..! :shipit:
 
+# SDK Naelike.com
+```
+<script src="https://naelike.com/sdk/sdk-naelike-v-100.min.js" type="text/javascript" ></script>
+```
+.JS : GET SDK URL.
+```
+console.log(accessLogLoad);
+console.log(accessToken);
+console.log(accessAPI);
+```
 
 # API GET URL
 
